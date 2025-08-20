@@ -1,3 +1,3 @@
-# Curso_Angular
+# React_Referencias
 
-[Curso de Angular 2](https://loiane.training/) incrível da Loiane Groner. 
+Referências para aprendizado de React. 
