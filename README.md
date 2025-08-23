@@ -1,3 +1,3 @@
-# React_Referencias
+# React  - Tutorial: Jogo da Velha
 
-Referências para aprendizado de React. 
+[Tutorial: Jogo da Velha](https://pt-br.react.dev/learn/tutorial-tic-tac-toe)
