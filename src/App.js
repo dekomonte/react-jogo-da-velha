@@ -1,8 +1,24 @@
+//-----Anotacoes-----
 //Componentes -> Peça de código reutilizável que representa uma parte da UI
 //JSX -> JavaScript + HTML
+//state -> Lembrar de coisas
 
-function Square({ valor }){
-  return <button className="square">{valor}</button>;
+import { useState } from "react";
+
+function Square(){
+
+  const [valor, setValor] = useState(null);
+  
+  function handleClick(){
+    console.log('Clique!');
+  }
+
+  return (
+    <button className="square" onClick={handleClick}>
+      {valor}
+    </button>
+  )
+
 }
 
 export default function Board() {
