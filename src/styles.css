@@ -1,90 +1,85 @@
+/* Reset e base */
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 20px;
+  margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+}
+
+/* Status e título */
 h1 {
-  margin-top: 0;
-  font-size: 22px;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-h2 {
-  margin-top: 0;
-  font-size: 20px;
+.status {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #333;
 }
 
-h3 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-h4 {
-  margin-top: 0;
-  font-size: 16px;
-}
-
-h5 {
-  margin-top: 0;
-  font-size: 14px;
-}
-
-h6 {
-  margin-top: 0;
-  font-size: 12px;
-}
-
-code {
-  font-size: 1.2em;
-}
-
-ul {
-  padding-inline-start: 20px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
+/* Tabuleiro */
+.linha-tabuleiro {
+  display: flex;
+  justify-content: center;
 }
 
 .square {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 60px;
+  height: 100px;
+  width: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  cursor: pointer;
+  color: #333; /* cor do X e O */
 }
 
-.linha-tabuleiro:after {
-  clear: both;
-  content: '';
-  display: table;
+.square:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
 }
 
-.status {
-  margin-bottom: 10px;
-}
-.game {
-  display: flex;
-  flex-direction: row;
+/* Botão de reset */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-.game-info {
-  margin-left: 20px;
+button:hover {
+  background: #555;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #666;
 }
