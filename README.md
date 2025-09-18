@@ -5,8 +5,8 @@
 React é uma biblioteca JavaScript para renderizar interfaces de usuário (UI). A interface do usuário é construída a partir de pequenas unidades, como botões, texto e imagens. O React permite combiná-los em componentes. encaixáveis ​​e reutilizáveis. 
 
 <p align="center">
-  <img src="./imagem1.png" alt="Interface 1" width="250" height="500"/>
-  <img src="./imagem2.png" alt="Interface 2" width="250" height="500"/>
+  <img src="./imagem1.png" alt="Interface 1" height="400"/>
+  <img src="./imagem2.png" alt="Interface 2" height="400"/>
 </p>
 
 ## 🚀 Como executar localmente
