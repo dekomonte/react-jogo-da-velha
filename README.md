@@ -33,6 +33,6 @@ React é uma biblioteca JavaScript para renderizar interfaces de usuário (UI). 
         http://localhost:3000
 
  ## 🛠️ Tecnologias utilizadas
--   [React](https://react.dev/)\
--   JavaScript (ES6+)\
+-   [React](https://react.dev/)
+-   JavaScript
 -   CSS
